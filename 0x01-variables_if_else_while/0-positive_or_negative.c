@@ -2,7 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main- A program that will assign a random number to the variable n */
+/**
+ * main- A program that will assign a random number to the variable n
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	int n;
@@ -11,15 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf(n "is positive\n");
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf(n "is zero\n");
+		printf("%d is zero\n", n);
 	}
 	else if (n < 0)
 	{
-		printf(n "is negative\n");
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
