@@ -3,7 +3,7 @@
 /**
  * _putchar - Custom implementation of the putchar function.
  * @c: The character to be printed.
- *This function writes a single character to the standard output.
+ * This function writes a single character to the standard output.
  * Returns:
  * On success, the number of bytes written (1).
  * On error, -1 is returned and errno is set appropriately.
