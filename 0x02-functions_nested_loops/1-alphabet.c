@@ -2,6 +2,7 @@
 /**
  * print_alphabet- a function that prints the alphabets
  * "a" - "z" in small letters
+ * _putchar- a function that displayd output to the screen
  * Return: 0 (success)
  */
 
