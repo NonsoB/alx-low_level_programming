@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+void swap_int(int *, int *)
+
 /**
  * main - check the code
- *
+ * swap_int - a function that swaps variables
  * Return: Always 0.
  */
 int main(void)
