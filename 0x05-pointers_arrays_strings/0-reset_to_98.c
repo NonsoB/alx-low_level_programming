@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main- Entry point
+ * reset_to_98 - Entry point
  * a program that takes a pointer to a paameter.
  * @n: input.
  * Return: n
