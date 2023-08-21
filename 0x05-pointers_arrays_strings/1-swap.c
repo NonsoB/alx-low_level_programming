@@ -7,11 +7,11 @@
  * @b: a vsriable name
  * Return: Always 0.
  */
-void swap_int(int a, int b)
+void swap_int(int *a, int *b)
 {
-	int n;
+	int m;
 
-	n = a;
-	a = b;
-	b = n;
+	m = *a;
+	*a = *b;
+	*b = m;
 }
