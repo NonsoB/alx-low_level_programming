@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- * swap_int - this function swaps the variable value.
+ *
  * Return: Always 0.
  */
 int main(void)
