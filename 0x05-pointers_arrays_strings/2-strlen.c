@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strlen - is a function that checks and returns the
- * length of a string
+ * _strlen - returns the length of a string
  * @s: string
- * return 0 (success)
+ * longi: a variable name
+ * Return: length (success)
  */
 int _strlen(char *s)
 {
